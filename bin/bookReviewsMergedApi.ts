@@ -9,7 +9,7 @@ import { SchemaBreakingChangeDetectionStack } from '../lib/breakingChangeDetecti
 const app = new cdk.App();
 
 const defaultRegion = 'us-east-1'
-export const YOUR_REPOSITORY_NAME = "sagarsinha7777/aws-appsync-merged-api-ci-cd-sample";
+export const YOUR_REPOSITORY_NAME = "sagarsinha7777/aws-appsync-merged-api-typescript";
 new SchemaBreakingChangeDetectionStack(app, 'BreakingChangeDetection', {
     env: {
         region: defaultRegion
